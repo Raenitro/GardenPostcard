@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3739509A1D382C5D009D88B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373950991D382C5D009D88B7 /* AppDelegate.swift */; };
+		3739509C1D382C5D009D88B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3739509B1D382C5D009D88B7 /* ViewController.swift */; };
+		3739509F1D382C5D009D88B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3739509D1D382C5D009D88B7 /* Main.storyboard */; };
+		373950A11D382C5D009D88B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373950A01D382C5D009D88B7 /* Assets.xcassets */; };
+		373950A41D382C5D009D88B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373950A21D382C5D009D88B7 /* LaunchScreen.storyboard */; };
+		373950AF1D382C5D009D88B7 /* GardenPostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373950AE1D382C5D009D88B7 /* GardenPostcardTests.swift */; };
+		373950BA1D382C5D009D88B7 /* GardenPostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373950B91D382C5D009D88B7 /* GardenPostcardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373950AB1D382C5D009D88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3739508E1D382C5D009D88B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373950951D382C5D009D88B7;
+			remoteInfo = GardenPostcard;
+		};
+		373950B61D382C5D009D88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3739508E1D382C5D009D88B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373950951D382C5D009D88B7;
+			remoteInfo = GardenPostcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		373950961D382C5D009D88B7 /* GardenPostcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenPostcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373950991D382C5D009D88B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3739509B1D382C5D009D88B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3739509E1D382C5D009D88B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373950A01D382C5D009D88B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373950A31D382C5D009D88B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373950A51D382C5D009D88B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373950AA1D382C5D009D88B7 /* GardenPostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenPostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373950AE1D382C5D009D88B7 /* GardenPostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenPostcardTests.swift; sourceTree = "<group>"; };
+		373950B01D382C5D009D88B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373950B51D382C5D009D88B7 /* GardenPostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenPostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373950B91D382C5D009D88B7 /* GardenPostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenPostcardUITests.swift; sourceTree = "<group>"; };
+		373950BB1D382C5D009D88B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373950931D382C5D009D88B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950A71D382C5D009D88B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950B21D382C5D009D88B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3739508D1D382C5D009D88B7 = {
+			isa = PBXGroup;
+			children = (
+				373950981D382C5D009D88B7 /* GardenPostcard */,
+				373950AD1D382C5D009D88B7 /* GardenPostcardTests */,
+				373950B81D382C5D009D88B7 /* GardenPostcardUITests */,
+				373950971D382C5D009D88B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373950971D382C5D009D88B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373950961D382C5D009D88B7 /* GardenPostcard.app */,
+				373950AA1D382C5D009D88B7 /* GardenPostcardTests.xctest */,
+				373950B51D382C5D009D88B7 /* GardenPostcardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373950981D382C5D009D88B7 /* GardenPostcard */ = {
+			isa = PBXGroup;
+			children = (
+				373950991D382C5D009D88B7 /* AppDelegate.swift */,
+				3739509B1D382C5D009D88B7 /* ViewController.swift */,
+				3739509D1D382C5D009D88B7 /* Main.storyboard */,
+				373950A01D382C5D009D88B7 /* Assets.xcassets */,
+				373950A21D382C5D009D88B7 /* LaunchScreen.storyboard */,
+				373950A51D382C5D009D88B7 /* Info.plist */,
+			);
+			path = GardenPostcard;
+			sourceTree = "<group>";
+		};
+		373950AD1D382C5D009D88B7 /* GardenPostcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				373950AE1D382C5D009D88B7 /* GardenPostcardTests.swift */,
+				373950B01D382C5D009D88B7 /* Info.plist */,
+			);
+			path = GardenPostcardTests;
+			sourceTree = "<group>";
+		};
+		373950B81D382C5D009D88B7 /* GardenPostcardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				373950B91D382C5D009D88B7 /* GardenPostcardUITests.swift */,
+				373950BB1D382C5D009D88B7 /* Info.plist */,
+			);
+			path = GardenPostcardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373950951D382C5D009D88B7 /* GardenPostcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373950BE1D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcard" */;
+			buildPhases = (
+				373950921D382C5D009D88B7 /* Sources */,
+				373950931D382C5D009D88B7 /* Frameworks */,
+				373950941D382C5D009D88B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenPostcard;
+			productName = GardenPostcard;
+			productReference = 373950961D382C5D009D88B7 /* GardenPostcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373950A91D382C5D009D88B7 /* GardenPostcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373950C11D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcardTests" */;
+			buildPhases = (
+				373950A61D382C5D009D88B7 /* Sources */,
+				373950A71D382C5D009D88B7 /* Frameworks */,
+				373950A81D382C5D009D88B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373950AC1D382C5D009D88B7 /* PBXTargetDependency */,
+			);
+			name = GardenPostcardTests;
+			productName = GardenPostcardTests;
+			productReference = 373950AA1D382C5D009D88B7 /* GardenPostcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		373950B41D382C5D009D88B7 /* GardenPostcardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373950C41D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcardUITests" */;
+			buildPhases = (
+				373950B11D382C5D009D88B7 /* Sources */,
+				373950B21D382C5D009D88B7 /* Frameworks */,
+				373950B31D382C5D009D88B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373950B71D382C5D009D88B7 /* PBXTargetDependency */,
+			);
+			name = GardenPostcardUITests;
+			productName = GardenPostcardUITests;
+			productReference = 373950B51D382C5D009D88B7 /* GardenPostcardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3739508E1D382C5D009D88B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "T Ray Campbell";
+				TargetAttributes = {
+					373950951D382C5D009D88B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DDDZ9RXGYB;
+						DevelopmentTeamName = "T Ray Campbell (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					373950A91D382C5D009D88B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DDDZ9RXGYB;
+						DevelopmentTeamName = "T Ray Campbell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 373950951D382C5D009D88B7;
+					};
+					373950B41D382C5D009D88B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DDDZ9RXGYB;
+						DevelopmentTeamName = "T Ray Campbell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 373950951D382C5D009D88B7;
+					};
+				};
+			};
+			buildConfigurationList = 373950911D382C5D009D88B7 /* Build configuration list for PBXProject "GardenPostcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3739508D1D382C5D009D88B7;
+			productRefGroup = 373950971D382C5D009D88B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373950951D382C5D009D88B7 /* GardenPostcard */,
+				373950A91D382C5D009D88B7 /* GardenPostcardTests */,
+				373950B41D382C5D009D88B7 /* GardenPostcardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373950941D382C5D009D88B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373950A41D382C5D009D88B7 /* LaunchScreen.storyboard in Resources */,
+				373950A11D382C5D009D88B7 /* Assets.xcassets in Resources */,
+				3739509F1D382C5D009D88B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950A81D382C5D009D88B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950B31D382C5D009D88B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373950921D382C5D009D88B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3739509C1D382C5D009D88B7 /* ViewController.swift in Sources */,
+				3739509A1D382C5D009D88B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950A61D382C5D009D88B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373950AF1D382C5D009D88B7 /* GardenPostcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373950B11D382C5D009D88B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373950BA1D382C5D009D88B7 /* GardenPostcardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373950AC1D382C5D009D88B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373950951D382C5D009D88B7 /* GardenPostcard */;
+			targetProxy = 373950AB1D382C5D009D88B7 /* PBXContainerItemProxy */;
+		};
+		373950B71D382C5D009D88B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373950951D382C5D009D88B7 /* GardenPostcard */;
+			targetProxy = 373950B61D382C5D009D88B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3739509D1D382C5D009D88B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3739509E1D382C5D009D88B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373950A21D382C5D009D88B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373950A31D382C5D009D88B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373950BC1D382C5D009D88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		373950BD1D382C5D009D88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373950BF1D382C5D009D88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GardenPostcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		373950C01D382C5D009D88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GardenPostcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		373950C21D382C5D009D88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GardenPostcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenPostcard.app/GardenPostcard";
+			};
+			name = Debug;
+		};
+		373950C31D382C5D009D88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GardenPostcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenPostcard.app/GardenPostcard";
+			};
+			name = Release;
+		};
+		373950C51D382C5D009D88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GardenPostcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GardenPostcard;
+			};
+			name = Debug;
+		};
+		373950C61D382C5D009D88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GardenPostcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raecams.GardenPostcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GardenPostcard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373950911D382C5D009D88B7 /* Build configuration list for PBXProject "GardenPostcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373950BC1D382C5D009D88B7 /* Debug */,
+				373950BD1D382C5D009D88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373950BE1D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373950BF1D382C5D009D88B7 /* Debug */,
+				373950C01D382C5D009D88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373950C11D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373950C21D382C5D009D88B7 /* Debug */,
+				373950C31D382C5D009D88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373950C41D382C5D009D88B7 /* Build configuration list for PBXNativeTarget "GardenPostcardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373950C51D382C5D009D88B7 /* Debug */,
+				373950C61D382C5D009D88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3739508E1D382C5D009D88B7 /* Project object */;
+}
